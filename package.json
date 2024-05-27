@@ -1,8 +1,9 @@
 {
-  "name": "portfolio-react",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@apideck/better-ajv-errors": "^0.3.6",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.13.3",
@@ -45,5 +46,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/varunbiluri/Portfolio.git",
+  "author": "BILLURI VARUN KUMAR REDDY <84211999+varunbiluri@users.noreply.github.com>",
+  "license": "MIT"
 }
