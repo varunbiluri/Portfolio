@@ -2,35 +2,35 @@
 export const ProjectList = [
   {
     img: "./mediscan.jpg",
-    title: "MediScan",
+    title: "MediScan: Medical Record Digitization",
     description:
-      "A application that converts handwritten doctor prescriptions into digitized copie.",
-    tech_stack: ["Python", "Google OCR", "LSTM(RNN)", "Flask", "Git"],
+      "Digitized medical records with Google OCR, image preprocessing, LSTM-based correction, and a Flask interface for image-to-text workflows.",
+    tech_stack: ["Python", "Google OCR", "LSTM", "Flask", "NLP"],
     github_url: "https://github.com/varunbiluri/PescriptionDigitilization",
   },
   {
-    img: "/mrs.png",
-    title: "Recommender System",
-    description:
-    "A movie recommendation system utilizing advanced data structures for personalized user suggestions.",
-  tech_stack: ["Java","HTML", "CSS", "javascript", "Git"],
-  github_url: "https://github.com/varunbiluri/capstone",
-  },
-  {
     img: "/coding.webp",
-    title: "Coding Hub",
+    title: "Agentic AI for Data Pipeline Reliability",
     description:
-      "A coding hub platform enabling collaborative coding and resource sharing through modern web technologies.",
-    tech_stack: ["ReactJS","ExpressJS", "MongoDB", "NodeJS", "Git"],
-    github_url: "https://github.com/skg1312/codecrafts",
+      "Built LangGraph workflows for Airflow triage, log summarization, root-cause analysis, Slack alerts, Jira routing, and guarded remediation.",
+    tech_stack: ["LangChain", "LangGraph", "Airflow", "Ollama", "PostgreSQL"],
+    github_url: "https://github.com/varunbiluri",
   },
   {
-    img: "/car.svg",
-    title: "Slot Finder",
+    img: "/mockup.png",
+    title: "VisioVoice: Multimodal AI for Accessibility",
     description:
-      "An application that detects nearby parking space availability",
-    tech_stack: ["Python", "OpenCV", "Flask", "Excel", "Git"],
-    github_url: "https://github.com/salesp07/Pokedex-ReactApp",
+      "Designed blind-first voice interaction using one-shot image understanding, structured scene memory, Azure OpenAI Vision, and real-time STT/TTS loops.",
+    tech_stack: ["FastAPI", "React", "Azure OpenAI", "Azure Speech", "Voice AI"],
+    github_url: "https://github.com/varunbiluri",
+  },
+  {
+    img: "/mrs.png",
+    title: "BERT Sentiment Analysis API",
+    description:
+      "Trained and served a BERT sentiment classifier through a REST API, improving minority-class performance with oversampling.",
+    tech_stack: ["BERT", "Python", "REST API", "Transformers", "ML"],
+    github_url: "https://github.com/varunbiluri",
   },
 ];
 
@@ -47,74 +47,64 @@ export const stackList = [
   },
   {
     img: "./icons8-machine-learning.svg",
-    name: "ML",
+    name: "PyTorch",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
-    name: "C",
+    img: "./icons8-data-science.svg",
+    name: "LangChain",
   },
   {
-    img: "./icons8-mongo-db.svg",
-    name: "MongoDB",
+    img: "./icons8-data-science.svg",
+    name: "LangGraph",
   },
   {
     img: "./icons8-database-administrator.svg",
-    name: "DBMS",
+    name: "Snowflake",
   },
   {
-    img: "./icons8-nodejs.svg",
-    name: "NodeJS",
+    img: "./icons8-database-administrator.svg",
+    name: "Airflow",
   },
   {
-    img: "./icons8-figma.svg",
-    name: "Figma",
+    img: "./icons8-database-administrator.svg",
+    name: "PostgreSQL",
   },
   {
-    img: "./icons8-html.svg",
-    name: "HTML",
+    img: "./icons8-flask.svg",
+    name: "FastAPI",
   },
   {
-    img: "./icons8-css.svg",
-    name: "CSS",
+    img: "./icons8-react-native.svg",
+    name: "React",
   },
   {
     img: "./icons8-javascript.svg",
     name: "JavaScript",
   },
   {
-    img: "./icons8-react-native.svg",
-    name: "ReactJS",
+    img: "./icons8-nodejs.svg",
+    name: "NodeJS",
   },
   {
-    img: "./icons8-express-js.svg",
-    name: "ExpressJS",
+    img: "./icons8-machine-learning.svg",
+    name: "Hugging Face",
   },
-  
+  {
+    img: "./icons8-machine-learning.svg",
+    name: "RAG",
+  },
+  {
+    img: "./icons8-machine-learning.svg",
+    name: "Voice AI",
+  },
   {
     img: "./icons8-git.svg",
     name: "Git",
   },
   {
     img: "./icons8-github.svg",
-    name: "Github",
+    name: "GitHub",
   },
-  
-  
-  
-  {
-    img: "./icons8-flask.svg",
-    name: "Flask",
-  },
-  {
-    img: "./icons8-sheets.svg",
-    name: "Sheets",
-  },
-  {
-    img: "./icons8-ms-word.svg",
-    name: "Word",
-  },
-  
-  
   {
     img: "./icons8-vs-code.svg",
     name: "VS Code",

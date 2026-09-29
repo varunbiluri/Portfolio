@@ -11,16 +11,15 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #fafaff;
+  background: #f4f8f6;
   font-weight: 400;
   overflow-x: hidden;
 }
 
 main {
-  background: #151418;
-  background-image: url('../public/blob-haikei.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background:
+    radial-gradient(circle at top left, rgba(20, 184, 122, 0.22), transparent 34%),
+    linear-gradient(135deg, #101316 0%, #17201d 52%, #101316 100%);
   width: 100%;
 }
 
@@ -87,24 +86,37 @@ video {
 .PrimaryBtn {
   padding: 12px 20px;
   border: none;
-  background: rgb(57, 134, 250);
+  background: #14b87a;
   color: #f6f6f6;
+  font-weight: 600;
 }
 
 .SecondaryBtn{
   padding: 10px 18px;
-  border: 2px solid rgb(57, 134, 250);
+  border: 2px solid #14b87a;
   color: #010606;
   margin-right: 1rem;
+  font-weight: 600;
 }
 
 .PrimaryBtn:hover {
-  background: rgb(58, 189, 62);
+  background: #0d9361;
 }
 
 .SecondaryBtn:hover {
   background: #e7faef;
   color: #000
+}
+
+.hero-secondary {
+  color: #f6f6f6;
+  margin-right: 0;
+  border-color: rgba(246, 246, 246, 0.45);
+}
+
+.hero-secondary:hover {
+  background: rgba(246, 246, 246, 0.1);
+  color: #f6f6f6;
 }
 
 .Container {
@@ -121,16 +133,17 @@ video {
   padding-bottom: 3rem;
   padding-right: 2rem;
   padding-left: 2rem;
-  border-radius: 1rem;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
   background: #fff;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  border: 1px solid #dbe7e2;
+  box-shadow: rgba(21, 20, 24, 0.08) 0px 18px 48px;
 }
 
 .AboutBio{
-  text-align: justify;
-  max-width: 750px;
+  text-align: left;
+  max-width: 820px;
   margin: 0 auto;
   color: #151418;
   line-height: 1.6;
@@ -150,13 +163,14 @@ video {
 }
 
 .SectionTitle {
-  font-size: 28px;
+  font-size: 32px;
   color: #151418;
   font-weight: 700;
-  margin-bottom: 3.5rem;
+  margin-bottom: 2rem;
 }
 .ProjectWrapper {
   margin-top: -1rem;
+  padding-bottom: 2rem;
 }
 
 

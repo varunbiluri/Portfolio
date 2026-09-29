@@ -2,8 +2,8 @@ import styled, { keyframes } from "styled-components";
 import { Link as LinkScroll } from "react-scroll";
 
 export const HeroContainer = styled.div`
-  padding-bottom: 2rem;
-  padding-top: 4rem;
+  padding-bottom: 5rem;
+  padding-top: 3rem;
   padding-right: 1rem;
   padding-left: 1rem;
   margin-right: auto;
@@ -28,6 +28,9 @@ export const HeroContainer = styled.div`
 export const HeroWrapper = styled.div`
   display: flex;
   flex-direction: row;
+  gap: 3rem;
+  min-height: 560px;
+  align-items: center;
 
   @media screen and (max-width: 992px) {
     flex-direction: column;
@@ -43,23 +46,28 @@ export const HeroLeft = styled.div`
   flex: 1;
 
   h1 {
-    font-size: 2.8rem;
+    font-size: 3.4rem;
     color: #f6f6f6;
     opacity: 0.98;
-    font-weight: 400;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 1rem;
   }
 
   h5 {
-    font-size: 1.6rem;
-    color: rgb(119, 119, 121);
+    font-size: 1.45rem;
+    color: #9ee6c2;
     margin-bottom: 1rem;
-    font-weight: 400;
+    font-weight: 500;
+    min-height: 2.5rem;
   }
 
   p {
-    font-size: 17px;
+    font-size: 1.05rem;
     color: #f6f6f6;
     opacity: 0.85;
+    line-height: 1.7;
+    max-width: 620px;
   }
 
   @media screen and (max-width: 992px) {
@@ -79,8 +87,66 @@ export const HeroRight = styled.div`
 `;
 
 export const Image = styled.img`
-  height: 300px;
+  height: 360px;
   width: auto;
+  filter: drop-shadow(0 24px 42px rgba(0, 0, 0, 0.35));
+
+  @media screen and (max-width: 768px) {
+    height: 260px;
+  }
+`;
+
+export const Eyebrow = styled.div`
+  color: #9ee6c2;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+`;
+
+export const HeroActions = styled.div`
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 992px) {
+    justify-content: center;
+  }
+`;
+
+export const StatGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin-top: 2.25rem;
+  max-width: 620px;
+
+  @media screen and (max-width: 576px) {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+`;
+
+export const StatCard = styled.div`
+  border: 1px solid rgba(158, 230, 194, 0.22);
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  padding: 1rem;
+
+  strong {
+    color: #f6f6f6;
+    display: block;
+    font-size: 1.15rem;
+  }
+
+  span {
+    color: rgba(246, 246, 246, 0.68);
+    display: block;
+    font-size: 0.82rem;
+    line-height: 1.4;
+    margin-top: 0.25rem;
+  }
 `;
 
 const ScrollAnimation = keyframes`

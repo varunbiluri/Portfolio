@@ -7,6 +7,8 @@ import {
   TechImg,
   TechName,
   ContactWrapper,
+  ExperienceGrid,
+  ExperienceCard,
 } from "./AboutElements";
 import ScrollAnimation from "react-animate-on-scroll";
 function About() {
@@ -23,22 +25,44 @@ function About() {
         </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-            Hello! My name is <strong>Varun Billuri</strong>. I'm originally from India and have been passionate about technology from a young age. My educational journey in Computer Science and Engineering & Business Systems at Jawaharlal Nehru Technological University, Anantapur, provided me with a strong foundation in both technical and business aspects of technology.            </ScrollAnimation>
+            Hello! My name is <strong>Varun Billuri</strong>. I am an AI/ML engineer building agentic AI systems, multilingual conversational AI platforms, and production ML workflows across healthcare, analytics, and data reliability use cases.
+            </ScrollAnimation>
 
             <br /><br />
             
             <ScrollAnimation animateIn="fadeInLeft">
-            My journey into the world of technology has been driven by a strong passion for problem-solving and innovation. Throughout my studies, I engaged in several impactful projects, including the development of MediScan, a precision medical record digitization tool using OCR and LSTM, and a comprehensive movie recommender system. These projects honed my skills in Python, Java, machine learning, and web development.
+            My work sits at the intersection of LLM orchestration, RAG, speech AI, MLOps, and backend systems. I enjoy taking ideas from rough experiments to reliable services: data preparation, model evaluation, inference pipelines, observability, API design, and deployment.
             </ScrollAnimation>
 
             <br /><br />
 
             <ScrollAnimation animateIn="fadeInLeft">
-            Working collaboratively within a team towards a shared objective has been an incredibly rewarding experience for me. Leading the development of an interactive coding hub using the MERN stack not only improved my technical skills but also enhanced my ability to communicate and work effectively with diverse teams. I am eager to continue exploring exciting projects in the future, with a particular interest in AI/ML, web development, and data science.
+            Recently, I have worked on multilingual healthcare voice AI at Worldish and agentic incident-response systems at ThoughtSpot. I care about practical AI: systems that are measurable, scalable, latency-aware, and safe enough to run in production.
               <div className="tagline2">
-                I have become confident using the following technologies:
+                Current focus areas and technologies:
               </div>
             </ScrollAnimation>
+
+            <ExperienceGrid>
+              <ScrollAnimation animateIn="fadeInUp">
+                <ExperienceCard>
+                  <h3>Worldish - Software Engineer</h3>
+                  <span>Dec 2025 - Present</span>
+                  <p>
+                    Leading AI/ML feature development for multilingual healthcare systems, rare-language fine-tuning workflows, provider benchmarking, and real-time STT/TTS voice pipelines.
+                  </p>
+                </ExperienceCard>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="fadeInUp">
+                <ExperienceCard>
+                  <h3>ThoughtSpot - MTS 2</h3>
+                  <span>Jan 2025 - Dec 2025</span>
+                  <p>
+                    Built LangChain and LangGraph agents for Airflow triage, LLM log summaries, anomaly detection, Slack alerts, Jira automation, and safer remediation workflows.
+                  </p>
+                </ExperienceCard>
+              </ScrollAnimation>
+            </ExperienceGrid>
             
 
             <Technologies>
