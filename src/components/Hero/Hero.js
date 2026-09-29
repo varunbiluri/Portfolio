@@ -33,7 +33,7 @@ function Hero() {
         <HeroWrapper>
           <HeroLeft>
             <ScrollAnimation animateIn="fadeIn" >
-              <Eyebrow>AI/ML Engineer - Agentic AI - Voice AI</Eyebrow>
+              <Eyebrow>AI/ML Systems Engineer - Agentic AI - Multilingual Voice AI</Eyebrow>
               <TypeAnimation
                 cursor={false}
                 sequence={[
@@ -49,15 +49,15 @@ function Hero() {
                   cursor={true}
                   sequence={[
                     500,
-                    'I build production-grade AI workflows.',
+                    'I architect production-grade AI systems.',
                     1000,
-                    'I ship agentic systems for data reliability.',
+                    'I turn unreliable AI experiments into durable platforms.',
                     1000,
-                    'I design multilingual voice AI for healthcare.',
+                    'I build multilingual voice AI for real-world healthcare.',
                     1000,
-                    'I fine-tune, evaluate, and deploy LLM pipelines.',
+                    'I own the path from model evaluation to deployment.',
                     1000,
-                    'I turn ML experiments into reliable products.',
+                    'I design systems that survive production pressure.',
                     300,
                     () => setShowScrollDown(true),
                     500,
@@ -69,10 +69,11 @@ function Hero() {
                 />
               }
               <p>
-                Software engineer focused on agentic AI systems, multilingual conversational AI,
-                RAG pipelines, speech AI, and MLOps. I work across Python, Java, PyTorch,
-                LangChain, LangGraph, FastAPI, Airflow, Snowflake, PostgreSQL, and cloud AI
-                services to build scalable production workflows.
+                I build AI platforms where LLM reasoning, speech systems, data orchestration,
+                model evaluation, and backend reliability meet. My work spans agentic incident
+                response, low-resource language AI, healthcare voice pipelines, RAG, fine-tuning,
+                and MLOps across Python, PyTorch, LangChain, LangGraph, FastAPI, Airflow,
+                Snowflake, PostgreSQL, AWS, Azure, and GCP.
               </p>
               <HeroActions>
                 <a className="btn PrimaryBtn btn-shadow" href="#projects">
@@ -90,15 +91,15 @@ function Hero() {
               <StatGrid>
                 <StatCard>
                   <strong>60%</strong>
-                  <span>MTTR reduction with AI incident routing</span>
+                  <span>MTTR reduction through agentic incident workflows</span>
                 </StatCard>
                 <StatCard>
-                  <strong>4+</strong>
-                  <span>Low-resource languages in voice AI systems</span>
+                  <strong>Multilingual</strong>
+                  <span>Voice AI across Tigrinya, Wolof, Bambara, and Arabic dialects</span>
                 </StatCard>
                 <StatCard>
-                  <strong>200k+</strong>
-                  <span>CodeKaze participant pool, rank 1973</span>
+                  <strong>End-to-end</strong>
+                  <span>Dataset prep, training, evaluation, deployment, and observability</span>
                 </StatCard>
               </StatGrid>
             </ScrollAnimation>

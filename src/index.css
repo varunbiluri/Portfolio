@@ -84,7 +84,7 @@ video {
 }
 
 .PrimaryBtn {
-  padding: 12px 20px;
+  padding: 13px 20px;
   border: none;
   background: #14b87a;
   color: #f6f6f6;
@@ -92,7 +92,7 @@ video {
 }
 
 .SecondaryBtn{
-  padding: 10px 18px;
+  padding: 11px 18px;
   border: 2px solid #14b87a;
   color: #010606;
   margin-right: 1rem;
@@ -163,14 +163,31 @@ video {
 }
 
 .SectionTitle {
-  font-size: 32px;
+  font-size: 34px;
   color: #151418;
-  font-weight: 700;
+  font-weight: 800;
   margin-bottom: 2rem;
 }
+
+.SectionKicker {
+  color: #14b87a;
+  font-size: 0.82rem;
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
+.SectionTitle::after {
+  background: #14b87a;
+  content: "";
+  display: block;
+  height: 3px;
+  margin-top: 0.65rem;
+  width: 72px;
+}
 .ProjectWrapper {
-  margin-top: -1rem;
-  padding-bottom: 2rem;
+  margin-top: 0;
+  padding: 5rem 0 2rem;
 }
 
 

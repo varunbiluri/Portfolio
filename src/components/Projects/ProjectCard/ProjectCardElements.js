@@ -3,13 +3,13 @@ import styled from "@emotion/styled";
 export const Card = styled.div`
   display: grid;
   grid-gap: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   grid-template-columns: 1fr;
   overflow: hidden;
   border-radius: 8px;
   border: 1px solid #dbe7e2;
   background: #fff;
-  box-shadow: 0 16px 42px rgba(21, 20, 24, 0.08);
+  box-shadow: 0 18px 44px rgba(21, 20, 24, 0.07);
   @media (min-width: 992px) {
     grid-template-columns: 0.9fr 1.1fr;
     border-bottom: 0;
@@ -38,9 +38,10 @@ export const CardRight = styled.div`
 
   h4 {
     color: #151418;
-    font-size: 1.45rem;
-    font-weight: 700;
+    font-size: 1.55rem;
+    font-weight: 800;
     line-height: 1.25;
+    max-width: 620px;
   }
 
   p {
@@ -51,6 +52,7 @@ export const CardRight = styled.div`
     color: #3f4a47;
     text-align: left;
     line-height: 1.65;
+    max-width: 650px;
 
     @media (min-width: 992px) {
       text-align: start;
@@ -59,6 +61,20 @@ export const CardRight = styled.div`
   @media (min-width: 992px) {
     align-items: flex-start;
     margin-top: 1rem;
+  }
+
+  .impact {
+    color: #17624a;
+    background: #eef8f3;
+    border: 1px solid #d7eee3;
+    border-radius: 8px;
+    display: inline-flex;
+    font-size: 0.78rem;
+    font-weight: 800;
+    line-height: 1.35;
+    margin-bottom: 0.9rem;
+    padding: 0.45rem 0.65rem;
+    text-transform: uppercase;
   }
 `;
 

@@ -25,19 +25,19 @@ function About() {
         </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-            Hello! My name is <strong>Varun Billuri</strong>. I am an AI/ML engineer building agentic AI systems, multilingual conversational AI platforms, and production ML workflows across healthcare, analytics, and data reliability use cases.
+            Hello! My name is <strong>Varun Billuri</strong>. I am an AI/ML systems engineer who builds production AI infrastructure across agentic workflows, multilingual conversational systems, speech AI, and model delivery pipelines.
             </ScrollAnimation>
 
             <br /><br />
             
             <ScrollAnimation animateIn="fadeInLeft">
-            My work sits at the intersection of LLM orchestration, RAG, speech AI, MLOps, and backend systems. I enjoy taking ideas from rough experiments to reliable services: data preparation, model evaluation, inference pipelines, observability, API design, and deployment.
+            I work best in the messy middle between research potential and production reality: designing architecture, selecting providers, building evaluation loops, hardening APIs, instrumenting reliability, and making AI systems measurable enough for teams to trust.
             </ScrollAnimation>
 
             <br /><br />
 
             <ScrollAnimation animateIn="fadeInLeft">
-            Recently, I have worked on multilingual healthcare voice AI at Worldish and agentic incident-response systems at ThoughtSpot. I care about practical AI: systems that are measurable, scalable, latency-aware, and safe enough to run in production.
+            Recently, I have worked on multilingual healthcare voice AI at Worldish and agentic incident-response systems at ThoughtSpot. My focus is practical technical leadership: build the platform, make the tradeoffs visible, and keep the system useful under real latency, quality, and reliability constraints.
               <div className="tagline2">
                 Current focus areas and technologies:
               </div>

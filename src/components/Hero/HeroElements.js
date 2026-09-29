@@ -2,7 +2,7 @@ import styled, { keyframes } from "styled-components";
 import { Link as LinkScroll } from "react-scroll";
 
 export const HeroContainer = styled.div`
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
   padding-top: 3rem;
   padding-right: 1rem;
   padding-left: 1rem;
@@ -21,15 +21,15 @@ export const HeroContainer = styled.div`
     max-width: 960px;
   }
   @media (min-width: 1200px) {
-    max-width: 1000px;
+    max-width: 1120px;
   }
 `;
 
 export const HeroWrapper = styled.div`
   display: flex;
   flex-direction: row;
-  gap: 3rem;
-  min-height: 560px;
+  gap: 3.5rem;
+  min-height: 640px;
   align-items: center;
 
   @media screen and (max-width: 992px) {
@@ -46,7 +46,7 @@ export const HeroLeft = styled.div`
   flex: 1;
 
   h1 {
-    font-size: 3.4rem;
+    font-size: 4.25rem;
     color: #f6f6f6;
     opacity: 0.98;
     font-weight: 700;
@@ -77,6 +77,11 @@ export const HeroLeft = styled.div`
 
     h5 {
       min-height: 5rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+    }
   }
 `;
 
@@ -87,7 +92,7 @@ export const HeroRight = styled.div`
 `;
 
 export const Image = styled.img`
-  height: 360px;
+  height: 420px;
   width: auto;
   filter: drop-shadow(0 24px 42px rgba(0, 0, 0, 0.35));
 
@@ -98,7 +103,7 @@ export const Image = styled.img`
 
 export const Eyebrow = styled.div`
   color: #9ee6c2;
-  font-size: 0.9rem;
+  font-size: 0.82rem;
   font-weight: 700;
   margin-bottom: 1rem;
   text-transform: uppercase;
@@ -118,9 +123,9 @@ export const HeroActions = styled.div`
 export const StatGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.8rem;
-  margin-top: 2.25rem;
-  max-width: 620px;
+  gap: 1rem;
+  margin-top: 2.5rem;
+  max-width: 760px;
 
   @media screen and (max-width: 576px) {
     grid-template-columns: 1fr;
@@ -132,12 +137,13 @@ export const StatCard = styled.div`
   border: 1px solid rgba(158, 230, 194, 0.22);
   background: rgba(255, 255, 255, 0.06);
   border-radius: 8px;
-  padding: 1rem;
+  min-height: 132px;
+  padding: 1.1rem;
 
   strong {
     color: #f6f6f6;
     display: block;
-    font-size: 1.15rem;
+    font-size: 1.22rem;
   }
 
   span {

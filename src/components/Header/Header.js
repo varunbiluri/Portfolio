@@ -13,6 +13,9 @@ const Header = ({ toggle }) => {
           </a>
         </Logo>
         <NavMenu>
+          <NavLink className="menu-item" to="impact">
+            Impact
+          </NavLink>
           <NavLink className="menu-item" to="projects">
             Projects
           </NavLink>

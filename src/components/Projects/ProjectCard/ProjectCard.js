@@ -19,6 +19,7 @@ function ProjectCard() {
               <img src={list.img} alt={list.title} />
               </CardLeft>
             <CardRight>
+              {list.impact && <span className="impact">{list.impact}</span>}
               <h4>{list.title}</h4>
               <p>{list.description}</p>
               <TechCardContainer>

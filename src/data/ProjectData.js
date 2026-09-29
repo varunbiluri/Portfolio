@@ -4,33 +4,37 @@ export const ProjectList = [
     img: "./mediscan.jpg",
     title: "MediScan: Medical Record Digitization",
     description:
-      "Digitized medical records with Google OCR, image preprocessing, LSTM-based correction, and a Flask interface for image-to-text workflows.",
+      "Converted noisy prescription images into structured text with OCR preprocessing, LSTM-based terminology correction, and a Flask workflow designed for medical-document digitization.",
     tech_stack: ["Python", "Google OCR", "LSTM", "Flask", "NLP"],
     github_url: "https://github.com/varunbiluri/PescriptionDigitilization",
+    impact: "Published research foundation for healthcare record digitization",
   },
   {
     img: "/coding.webp",
     title: "Agentic AI for Data Pipeline Reliability",
     description:
-      "Built LangGraph workflows for Airflow triage, log summarization, root-cause analysis, Slack alerts, Jira routing, and guarded remediation.",
+      "Designed production agent workflows that reason over Airflow failures, summarize logs, classify incidents, retrieve historical context, route alerts, and execute safe remediation paths.",
     tech_stack: ["LangChain", "LangGraph", "Airflow", "Ollama", "PostgreSQL"],
     github_url: "https://github.com/varunbiluri",
+    impact: "Reduced MTTR by about 60% for incident response workflows",
   },
   {
     img: "/mockup.png",
     title: "VisioVoice: Multimodal AI for Accessibility",
     description:
-      "Designed blind-first voice interaction using one-shot image understanding, structured scene memory, Azure OpenAI Vision, and real-time STT/TTS loops.",
+      "Built a blind-first conversational system that converts a scene into structured memory once, then supports grounded follow-up through real-time speech loops and hazard-aware narration.",
     tech_stack: ["FastAPI", "React", "Azure OpenAI", "Azure Speech", "Voice AI"],
     github_url: "https://github.com/varunbiluri",
+    impact: "Reduced repeated image calls by using structured scene memory",
   },
   {
     img: "/mrs.png",
     title: "BERT Sentiment Analysis API",
     description:
-      "Trained and served a BERT sentiment classifier through a REST API, improving minority-class performance with oversampling.",
+      "Trained, balanced, and served a BERT classifier through an API, with oversampling to improve minority-class behavior and make model output more dependable.",
     tech_stack: ["BERT", "Python", "REST API", "Transformers", "ML"],
     github_url: "https://github.com/varunbiluri",
+    impact: "Focused on class balance, deployment shape, and inference usability",
   },
 ];
 
